@@ -6,7 +6,7 @@
   <title>MikroMakroKosmosy</title>
   <meta name="description" content="MikroMakroKosmosy to kolektyw przenikający między skalami. Tworzymy kolaże z fragmentów, żywiąc się naturą zdekonstruowaną. Nasze dzieła oddychają, mutują i zmieniają percepcję. Jesteśmy pyłkiem, neuronem, galaktyką. Cząstką i całością.">
 
-  <!-- 🌿 Artystyczna czcionka -->
+  <!-- 🌿 Czcionki -->
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
 
   <style>
@@ -18,6 +18,45 @@
       line-height: 1.7;
       margin: 0;
       padding: 0;
+      display: flex;
+    }
+
+    nav {
+      width: 200px;
+      background-color: rgba(0, 0, 0, 0.85);
+      padding: 2rem 1rem;
+      min-height: 100vh;
+      position: sticky;
+      top: 0;
+    }
+
+    nav h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      color: #a3f3c0;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #444;
+      padding-bottom: 0.3rem;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav li {
+      margin-bottom: 1rem;
+    }
+
+    nav a {
+      color: #f0d98c;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffffff;
     }
 
     .content {
@@ -25,6 +64,7 @@
       max-width: 800px;
       margin: 5vh auto;
       padding: 2rem;
+      flex: 1;
     }
 
     h1 {
@@ -72,6 +112,16 @@
   </style>
 </head>
 <body>
+
+  <!-- 🍂 MENU BOCZNE -->
+  <nav>
+    <h2>Kolaże</h2>
+    <ul>
+      <li><a href="ZawBuk.html">Zawijany Bukiet</a></li>
+    </ul>
+  </nav>
+
+  <!-- 🌌 TREŚĆ GŁÓWNA -->
   <div class="content">
     <h1>MikroMakroKosmosy</h1>
 
@@ -91,5 +141,6 @@
 
     <p><em>MikroMakroKosmosy to kolektyw przenikający między skalami. Tworzymy kolaże z fragmentów, żywiąc się naturą zdekonstruowaną. Nasze dzieła oddychają, mutują i zmieniają percepcję. Jesteśmy pyłkiem, neuronem, galaktyką. Cząstką i całością.</em></p>
   </div>
+
 </body>
 </html>
